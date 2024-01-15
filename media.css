@@ -1,0 +1,316 @@
+@media(max-width:768px) {
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .nav-items {
+        position: fixed;
+        background-color: rgb(24, 24, 24);
+        flex-direction: column;
+        gap: 20px;
+        top: 70px;
+        width: 40%;
+        height: 52%;
+        text-align: center;
+        padding-bottom: 30px;
+        padding-top: 10px;
+        padding-left: 0;
+        margin-left: 410px;
+        right: -300px;
+        transition: 0.3s;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        width: 25px;
+        transform: translateY(8px) rotate(45deg);
+        background-color: red
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+        background-color: red;
+    }
+
+    .nav-items.active {
+        right: 0;
+    }
+
+    .nav-button {
+        padding: 10px 20px;
+    }
+
+    /* TOP SECTION */
+    .top-section {
+        padding: 20px 40px 100px 40px;
+    }
+
+    /* hero section */
+    .hero-section {
+        margin-top: 100px;
+        padding-left: 0px;
+        padding-right: 180px;
+    }
+
+    .hero-header {
+        font-size: 40px;
+    }
+
+    .hero-button {
+        padding: 10px 20px;
+    }
+
+    /* HEALTH SECTION */
+    .health-section {
+        padding: 10px 0px;
+    }
+
+    .fitness-template {
+        padding-top: 25px;
+        padding-left: 2%;
+        padding-right: 2%;
+        width: 28vw;
+        height: 30vh;
+    }
+
+    .fitness-template-group-1 {
+        justify-content: flex-start;
+        margin: 40px 0px 0px 30px;
+        gap: 10px;
+    }
+
+    .middle-fitness-template {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .fitness-template-group-2 {
+        justify-content: space-between;
+        margin: 30px 100px 30px 100px;
+    }
+
+    .results-template {
+        width: 75vw;
+        height: 400px;
+        padding: 20px 20px 15px 20px;
+    }
+
+    .results-template-group-1 {
+        margin: 40px 100px 40px 60px;
+        gap: 40px;
+    }
+
+    .results-template-group-2 {
+        margin: 10px 100px 40px 60px;
+        gap: 40px;
+    }
+
+    .results-template-image {
+        height: 80%;
+    }
+
+    /* STORY SECTION */
+    .my-story {
+        padding: 20px 10px;
+    }
+
+    .play-icon-image {
+        width: 90%;
+        height: 700px;
+        margin-left: 5%;
+    }
+
+    .play {
+        top: 45%;
+        right: 38%;
+    }
+
+    .fa-play {
+        margin-left: 5px;
+    }
+
+    .anime-1 {
+        position: absolute;
+        top: 45%;
+        right: 38%;
+    }
+
+    .story-section-text {
+        padding-right: 50px;
+    }
+
+    /* TESTIMONIAL SECTION */
+    .testionial-quotes {
+        display: grid;
+        gap: 50px;
+        grid-template-columns: 80vw;
+        grid-auto-rows: 550px;
+        margin-left: 40px;
+        margin-top: 30px;
+    }
+
+    /* BODY CHALLENGE SECTION */
+    .body-challenge-hr {
+        width: 90vw;
+        margin-left: 17px;
+    }
+
+    .body-challenge-container {
+        width: 85vw;
+        height: 960px;
+        margin-left: 20px;
+        margin-top: 30px;
+        padding: 30px 10px 10px 20px;
+    }
+
+    .body-challenge-image {
+        width: 95%;
+        height: 400px;
+        margin-left: 10px;
+    }
+
+    .body-challenge-text {
+        margin-left: 10px;
+    }
+
+    .body-challenge-writeup {
+        padding-right: 10px;
+    }
+
+    /* WORKOUT PLAN SECTION */
+    .workout-plan-container {
+        width: 85%;
+        height: 950px;
+        margin-left: 30px;
+        padding: 30px 10px 20px 20px;
+    }
+
+    .plan-header {
+        padding-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    .plans {
+        padding-left: 20px;
+    }
+
+    /* DOWNLOAD SECTION */
+    .download-section {
+        padding: 20px 5px 50px 10px;
+    }
+
+    .download-section-image {
+        width: 90%;
+        height: 600px;
+        margin-left: 20px;
+    }
+
+    .download-section-writeup {
+        margin-top: 40px;
+        margin-left: 30px;
+    }
+
+    .download-button {
+        padding: 10px 20px;
+    }
+
+    /* TRIAL SECTION */
+    .trial-version-container {
+        padding: 100px 20px 120px 20px;
+        text-align: center;
+    }
+
+    .trial-version-header {
+        font-size: 60px;
+        padding-left: 10px;
+        padding-right: 20px;
+    }
+
+    .trial-version-text {
+        font-size: 22px;
+    }
+
+    .free-download-button {
+        padding: 13px 20px;
+    }
+
+    /* NEWS ARTICLES SECTION */
+    .article-cards {
+        grid-template-columns: 90vw;
+        grid-auto-rows: 650px;
+    }
+
+    .article-card {
+        margin-left: 20px;
+    }
+
+   /* FOLLOW US SECTION */
+   .follow-us-hr {
+       margin-left: 20px;
+   }
+
+   .follow-us-images {
+       padding: 40px 20px 40px 20px;
+       margin-left: 10px;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-between;
+       gap: 40px;
+   }
+
+   .follow-us-image {
+       width: 85vw;
+       height: 500px;
+       margin-top: 30px;
+   }
+
+   /* PRICING SECTION */
+   .pricing-section-write-up {
+       margin-top: 50px;
+       margin-left: 40px;
+   }
+
+   .pricing-section-header {
+       margin-top: 5px;
+   }
+
+   .pricing-section-text {
+       padding-right: 40px;
+   }
+
+   .pricing-cards {
+       grid-template-columns: 85vw;
+   }
+
+   .pricing-card {
+       margin-left: 20px;
+   }
+
+   /* FAQ SECTION */
+   .faq-section-header {
+       padding: 50px 0;
+   }
+
+   .faq-section-main-header {
+       font-size: 50px;
+       padding-bottom: 10px;
+   }
+
+   .faq-green-text {
+       font-size: 17px;
+   }
+
+   .faq-question-list {
+       font-size: 18px;
+       margin-left: 10px;
+   }
+
+   /* COPYRIGHT SECTION */
+   .copyright-text {
+       margin-left: 0;
+}
+}
